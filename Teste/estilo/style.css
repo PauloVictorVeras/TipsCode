@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+/*=================Seção Tags=================*/
+
+body {
+    font-family: 'MerriWeather', serif;
+    margin: 0px;
+    text-align: center;
+
+}
+
+h1 {
+    font-family: 'sacramento', 'cursive';
+    margin: 0 auto;
+    color: #66bfbf;
+    font-size: 2.5em;
+    padding-top: 3%;
+}
+
+H2, H3 {
+   font-family: 'Montserrat', sans-serif
+}
+
+h3 {
+
+}
+
+
+
+span {
+    text-decoration: underline;
+}
+
+/*=================Seção Classes=================*/
+
+.cerebrocima {
+    position: absolute;
+    left: 75%;
+    padding-top: 1.5%;
+   
+}
+
+.cerebrobaixo {
+    position: relative;
+}
+
+.imgheader {
+
+}
+
+.cabecalho {
+    background-color: rgb(9, 27, 145);
+}
+
+.subtitulo {
+    color: white;
+}
+
+.portfolio {
+    font-size: 2em;
+    padding-top: -5px;
+}

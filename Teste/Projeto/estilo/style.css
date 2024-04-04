@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgba(240, 128, 128, 0.132);
+}
+
+body {
+    margin: auto 0px auto 0px;
+}
+
+.profile {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.fotopv {
+    border-radius: 70%;
+    
+}
+
+.middle-container {
+
+}
+
+main {
+    padding: 13%;
+    padding-top: 20px;
+}
+.code-img {
+    width: 10%;
+    float: left;
+}
