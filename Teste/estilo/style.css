@@ -1,11 +1,19 @@
 @charset "UTF-8";
 
+/*https://flexboxfroggy.com/*/
+
+
+/*Colocar emoji dinamico abrindo a pasta do portfolio.*/
+/*Colocar emoji dinamico abrindo a pasta do portfolio.*/
+/*Colocar emoji dinamico abrindo a pasta do portfolio.*/
+/*Colocar emoji dinamico abrindo a pasta do portfolio.*/
+/*Colocar emoji dinamico abrindo a pasta do portfolio.*/
+
 /*=================Seção Tags=================*/
 
 body {
     font-family: 'MerriWeather', serif;
-    margin: 0px;
-    text-align: center;
+    /*text-align: center;*/
 
 }
 
@@ -19,8 +27,9 @@ h1 {
 }
 
 h2 {
-    font-size: 2,5rem;
+    font-size: 2.5rem;
     margin-top: 3em;
+    text-align: center;
 }
 
 h3 {
@@ -55,8 +64,8 @@ span {
     text-decoration: underline;
 }
 
-figcaption {
-    text-align: left;
+figcaption > p {
+   /* text-align: left;*/
 }
 
 abbr {
@@ -78,14 +87,14 @@ abbr:hover {
 
 .cerebrobaixo {
     position: relative;
+    right: 13%;
 }
 
-.imgheader {
 
-}
 
 .cabecalho {
     background-color: rgb(9, 27, 145);
+    text-align: center;
 }
 
 .subtitulo {
@@ -93,6 +102,20 @@ abbr:hover {
 }
 
 .portfolio {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #2980b9);
+    background-image: -moz-linear-gradient(top, #11cdd4, #2980b9);
+    background-image: -ms-linear-gradient(top, #11cdd4, #2980b9);
+    background-image: -o-linear-gradient(top, #11cdd4, #2980b9);
+    background-image: linear-gradient(to bottom, #11cdd4, #2980b9);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 21px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
     font-size: 2rem;
     padding-top: -5px;
     font-weight: normal;
@@ -103,8 +126,15 @@ abbr:hover {
 }
 
 .portfolio:hover {
-    text-decoration: underline;
-    color:rgb(9, 27, 145);
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.555);
+    padding: 08px 50px 08px 30px;
+    transition: .5s;
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
 }
 
 .code-img {
@@ -127,11 +157,12 @@ abbr:hover {
 
 .gosto {
     text-align: justify;
-    clear: right;
+    /*clear: right;*/
 }
-.full {
+
+/*.full {
     clear: left
-}
+}*/
 
 .msg-conhecimento {
     margin: 100px auto;
@@ -140,6 +171,8 @@ abbr:hover {
 .projetos {
     width: 40%;
     margin: 40px auto;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif
 }
 
 .btn {
@@ -168,18 +201,24 @@ abbr:hover {
     background-image: -o-linear-gradient(top, #63b8ed, #46a9eb);
     background-image: linear-gradient(to bottom, #63b8ed, #46a9eb);
     text-decoration: none;
+    
   }
   
 
   .bottom-container
   {
     background-color: rgb(9, 27, 145);
+    text-align: center;
   }
 
   .bottom-container > a {
     color: lightblue;
-    padding: 10px 20px;
+    margin: 10px 20px;
     text-decoration: none;
+  }
+
+  a {
+    margin: 10px 20px;
   }
 
   .bottom-container > a:hover {
@@ -191,3 +230,10 @@ abbr:hover {
     color: white;
     font-size: .85em;
   }
+
+  .intro {
+    text-align: center;
+    margin:auto 400px;
+  }
+
+  
