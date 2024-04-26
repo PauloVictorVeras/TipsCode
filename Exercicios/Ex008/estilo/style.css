@@ -1,12 +1,12 @@
 @charset "UTF-8";
 
 .menulink {
-    color: rgb(243, 243, 255);
+    color: rgb(255, 255, 255);
     text-decoration: none;
     padding: 10px;
 }
 .menulink:hover{
-    text-shadow: 1px 0px 0px rgba(243, 243, 255, 0.617);
+    text-shadow: 1px 0px 0px rgb(243, 243, 255);
 }
 
 .logo:hover {
@@ -14,7 +14,7 @@
 }
 
 .navbar-toggler:hover {
-    color: rgba(240, 248, 255, 0.815);
+    color: rgba(240, 248, 255, 0.923);
 }
 
 .logoimagem {
