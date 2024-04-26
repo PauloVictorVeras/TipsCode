@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.apresentacao {
+    background-color: black;
+    color: aliceblue;
+    width: 40%;
+    height: 99vh;
+    padding: 0px 20px;
+    position: relative;
+}
+
+.login {
+    background-color: mediumblue;
+    color: aliceblue;
+    width: 60%;
+    height: 99vh;
+    position: relative;
+    left: 40%;
+    top: -1000px;
+    padding: 40px 20px;
+}
+
+.login > h1{
+    text-align: center;
+    padding-top: 70px;
+    font-size: 4em;
+}
+
+.caixalogin {
+    margin: 15% auto;
+    position: relative;
+    background-color: rgb(255, 252, 252);
+    color: blue;
+    border-radius: 25px;
+    height: 70%;
+    width: 80%;
+    text-align: right;
+}
+
+.login > div > h3 {
+    position: relative;
+    top: 260px;
+    left: -24%;
+    font-size: 1.6em;
+    padding: 3%;
+    font-weight: 300;
+}
+
+.login > div > p {
+    position: relative;
+    top: 226px;
+    left: -23.5%;
+    font-size: .9em;
+    padding: 4%;
+    text-decoration: underline;
+    
+}
+
+.login > div > h2 {
+    
+    position: absolute;
+    left: 40%;
+    top: 32%;
+    font-size: 2.7em;
+    font-weight: 400;
+}
+
+.tapresent {
+    font-size: 1.7em;
+    position: relative;
+    top: 360px;
+    padding: 0px 20px 0px 0px;
+    left: 25px;
+}
+
+.logo {
+    
+    padding-top: 60px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

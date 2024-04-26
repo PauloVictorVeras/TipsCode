@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+/* ==================Seção de Tags================== */
+
+
+body,html {
+    margin: 0;
+}
+
+header {
+    background-color: #092635;
+
+}
+
+h1 {
+    color: #5C8374;
+    border: solid 2px black;
+    text-shadow: 1px 1px 1px white;
+    margin: 0px;
+   
+}
+
+p {
+    color: white;
+}

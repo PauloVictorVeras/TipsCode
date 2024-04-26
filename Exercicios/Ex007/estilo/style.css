@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+.logo {
+    padding: 14px;
+    width: 280px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar-toggler {
+    margin-right: 2%;
+}
+
+ul {
+    margin-left: 14px;
+}
+
