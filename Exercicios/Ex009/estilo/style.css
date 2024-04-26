@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+body {
+    grid: 'logo logo';
+}
+
+.menulink {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 10px;
+}
+.menulink:hover{
+    text-shadow: 1px 0px 0px rgb(243, 243, 255);
+}
+
+.logo:hover {
+    text-shadow: 1px 1px 1px rgb(243, 243, 255);
+}
+
+.navbar-toggler:hover {
+    color: rgba(240, 248, 255, 0.923);
+}
+
+.logoimagem {
+    width: 70%;
+}
+
+.divlogo {
+    display: flex;
+    flex-direction: row;
+    float: left;
+    grid-area: logo;
+    grid: 1fr 2fr;
+}
+
+.divlogin {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    grid-area: login;
+}
