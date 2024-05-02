@@ -1,0 +1,136 @@
+@charset "UTF-8";
+
+/*===========================ID's===========================*/
+#title {
+     background-image: linear-gradient(to right, #051d35, #093764 );
+}
+
+#nav {
+    
+    background-image: linear-gradient(to right #051d35 #052e58 );
+}
+
+body{
+    font-family: 'montserrat';
+}
+
+h1 {
+    font-family: 'Montserrat' 'sans-serif';
+    color: #cb9850;
+    size: 3.5rem;
+    line-height: 1;
+    font-weight: 700;
+}
+
+h3 {
+    font-family: 'Montserrat-bold';
+}
+
+p {
+    color: #8f8f8f;
+}
+
+.navbar-brand {
+
+    font-family: 'ubuntu';
+    font-size: 2.5rem;
+    font-weight: 500;
+   
+}
+
+.navbar {
+ padding: 2.5rem 0rem 4.5rem 0rem;
+}
+
+
+
+
+
+#testimonials {
+    background-color: #ec9418;
+}
+
+
+
+/*===========================Classes===========================*/
+.menulink {
+    color: rgb(226, 221, 221);
+    text-decoration: none;
+    padding: 18px;
+    font-size: 1.2rem;
+    font-family: 'Montserrat';
+}
+.menulink:hover{
+    text-shadow: 1px 0px 0px rgba(243, 243, 255, 0.801);
+}
+
+.logo:hover {
+    text-shadow: 1px 1px 1px rgb(243, 243, 255);
+}
+
+.navbar-toggler:hover {
+    color: rgba(240, 248, 255, 0.923);
+}
+
+/*.logoimagem {
+    width: 70%;
+}
+*/
+
+.gatinhocelular {
+    width: 55%;
+    transform: rotate(25deg);
+}
+
+.container-fluid{
+    padding: 1% 15%;
+}
+/*
+ .fa-circle-check{
+    position: relative;
+    left: 65px;
+    top: -20px;
+}
+.fa-bullseye {
+    position: relative;
+    left: 65px;
+    top: -20px;
+}
+
+.fa-heart {
+    position: relative;
+    left: 42px;
+    top: -20px;
+}
+*/
+
+/*======section======*/
+
+#features {
+ padding: 7% 15%;   
+ 
+}
+
+.divfeatures {
+    text-align: center;
+    padding: 5%;
+    
+}
+
+.i:hover {
+    color: #093764;
+}
+
+.iconefeatures {
+    color: #ec9418;
+    size: px;
+}
+
+.iconefeatures:hover {
+    color: rgb(229, 187, 19);
+    size: 8px;
+}
+
+.headerbutton {
+    margin: 0px 3px 4px 0px;
+}

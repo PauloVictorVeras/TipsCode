@@ -1,0 +1,134 @@
+@charset "UTF-8";
+
+/*===========================ID's===========================*/
+body{
+    font-family: 'montserrat';
+}
+
+h1 {
+    font-family: 'Montserrat' 'sans-serif';
+    color: #cb9850;
+    size: 3.5rem;
+    line-height: 1;
+    font-weight: 700;
+}
+
+h2 {
+    font-family: 'Montserrat';
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+
+h3 {
+    font-family: 'Montserrat';
+}
+
+p {
+    color: #8f8f8f;
+}
+/*===========================Classes Gerais===========================*/
+
+ /*===========================Header===========================*/
+ #title {
+    background-image: linear-gradient(to right, #051d35, #093764 );
+    padding: 1% 15%;
+}
+
+ nav {
+    background-image: linear-gradient(to right #051d35 #052e58 );
+}
+
+ .navbar {
+ padding: 2.5rem 0rem 4.5rem 0rem;
+}
+
+.navbar-brand {
+
+    font-family: 'ubuntu';
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.navbar-brand:hover{
+    color: rgba(255, 255, 255, 0.778);
+    text-shadow: 0.5px 0px 0px white;
+}
+
+.logo:hover {
+    text-shadow: 1px 1px 1px rgb(243, 243, 255);
+}
+
+/*.logoimagem {
+    width: 70%;
+}
+Código caso eu substitua a logo escrita pela imagem.
+*/
+
+.navbar-toggler:hover {
+    color: rgba(240, 248, 255, 0.923);
+}
+
+.menulink {
+    color: rgb(226, 221, 221);
+    text-decoration: none;
+    padding: 18px;
+    font-size: 1.2rem;
+    font-family: 'Montserrat';
+}
+.menulink:hover{
+    text-shadow: 1px 0px 0px rgba(243, 243, 255, 0.801);
+}
+
+.headerbutton {
+    margin: 0px 3px 4px 0px;
+}
+
+.gatinhocelular {
+    width: 53%;
+    transform: rotate(25deg);
+}
+/*===========================Section Features===========================*/
+
+#features {
+ padding: 7% 12%;   
+ 
+}
+
+.divfeatures {
+    text-align: center;
+    padding: 5%;
+    
+}
+
+.iconefeatures {
+    color: #ec9418;
+    size: px;
+}
+
+.iconefeatures:hover {
+    color: rgb(229, 187, 19);
+    size: 8px;
+}
+/*===========================Section Testimonials===========================*/
+#testimonials {
+    background-image: linear-gradient(to bottom, #e0942af7, #e0942af7, #e4a93cfa);
+    padding: 7% 15%;
+    text-align: center;
+    color: #ffffff;
+}
+
+#testimonials > img {
+    border-radius: 50%;
+    width: 10%;
+    margin: 2%;
+}
+
+#press {
+    background-image: linear-gradient(to bottom, #e4a93c, #e6ad44f9);
+    text-align: center;
+    padding: 3%;
+}
+
+.carousel-item {
+    width: 20%;
+}

@@ -1,0 +1,34 @@
+  <section id="features" class="d-flex row section features" >
+    <div class="container-fluid">
+      <div class="row">
+        
+        <div class="divfeatures col-xl-4 col-lg-3 col-md-3">
+          <h3>
+            <i class="fa-solid fa-circle-check fa-2xl " style="color: #ec9418;"></i>
+            <br>
+            Fácil de usar
+          </h3>
+          <p>Tão facil de usar quanto levar o seu pet para passear</p>
+        </div>
+        <div class="divfeatures col-xl-4 col-lg-3 col-md-3">
+          <h3>
+            <i class="fa-solid fa-bullseye fa-2xl " style="color: #ec9418;"> <br> </i>
+            <br>
+            O gato certo
+          </h3>
+          <p>Gatos para amizade ou relacionamento e dividir a mesma caixa de areia
+            &#x1F495</p>
+        </div>
+        
+        <div class="divfeatures col-xl-4 col-lg-3 col-md-3">
+          <h3>
+            <i class="fa-solid fa-heart fa-2xl " style="color: #ec9418; "></i>
+            <br>
+            Gato ama
+          </h3>
+          <p>Proporcione momentos incríveis para seus gatos</p>
+        </div>
+      </div>
+    </div>
+
+  </section>
