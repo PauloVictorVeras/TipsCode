@@ -1,8 +1,10 @@
 @charset "UTF-8";
 
 /*===========================ID's===========================*/
+
 body{
     font-family: 'montserrat';
+    overflow-x: hidden;
 }
 
 h1 {
@@ -147,4 +149,19 @@ Código caso eu substitua a logo escrita pela imagem.
 
 .carousel-control-next {
     margin-left: 60px; /* Ajuste a margem direita conforme necessário */
+}
+
+/*=====================================*/
+
+.cards {
+    padding: 7%;
+}
+.card {
+    margin: 1px;
+    width: 33%;
+}
+
+#pricing {
+    background-color: #051d35;
+    padding: 10%;
 }
