@@ -86,14 +86,20 @@ Código caso eu substitua a logo escrita pela imagem.
 }
 
 .gatinhocelular {
-    width: 53%;
+    width: 15%;
     transform: rotate(25deg);
+    position: absolute;
+    background-position:left;
+    top: 140px;
+    left: 62%;
 }
 /*===========================Section Features===========================*/
 
 #features {
- padding: 7% 12%;   
- 
+    background-color: rgb(255, 255, 255);
+    padding: 7% 15%;   
+    z-index: 1;
+    position: relative;
 }
 
 .divfeatures {
@@ -154,14 +160,20 @@ Código caso eu substitua a logo escrita pela imagem.
 /*=====================================*/
 
 .cards {
-    padding: 7%;
+    padding: 2%;
 }
 .card {
     margin: 1px;
-    width: 33%;
+    padding: 10px;
+    text-align: center;
+    text
 }
 
 #pricing {
-    background-color: #051d35;
-    padding: 10%;
+    background-color: #0211203b;
+    padding: 2% 6%;
+}
+
+.card-body > ul {
+    list-style-type: none
 }
