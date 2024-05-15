@@ -7,23 +7,11 @@ body{
     overflow-x: hidden;
 }
 
-h1 {
+h1, h2 , h3, h4 ,h5, h6 {
     font-family: 'Montserrat' 'sans-serif';
-    color: #cb9850;
-    size: 3.5rem;
-    line-height: 1;
-    font-weight: 700;
 }
 
-h2 {
-    font-family: 'Montserrat';
-    font-size: 2.5rem;
-    line-height: 1.5;
-}
 
-h3 {
-    font-family: 'Montserrat';
-}
 
 p {
     color: #8f8f8f;
@@ -34,6 +22,13 @@ p {
  #title {
     background-image: linear-gradient(to right, #051d35, #093764 );
     padding: 1% 15%;
+}
+
+.text-title{
+    color: #cb9850;
+    size: 3.5rem;
+    line-height: 1;
+    font-weight: 700;
 }
 
  nav {
@@ -125,6 +120,13 @@ Código caso eu substitua a logo escrita pela imagem.
     color: #ef9414;
 }
 
+.text-carousel {
+    font-size: 2.5rem;
+    line-height: 1.5;
+     font-size: 2.5rem;
+    line-height: 1.5;
+}
+
 #press {
     background-image: linear-gradient(to bottom, #093764, #093764, #093764);
     
@@ -157,7 +159,7 @@ Código caso eu substitua a logo escrita pela imagem.
     margin-left: 60px; /* Ajuste a margem direita conforme necessário */
 }
 
-/*=====================================*/
+/*====================Section Price=================*/
 
 .cards {
     padding: 2%;
@@ -166,7 +168,11 @@ Código caso eu substitua a logo escrita pela imagem.
     margin: 1px;
     padding: 10px;
     text-align: center;
-    text
+}
+
+.text-card {
+    font-size: 2.5rem;
+    line-height: 1.5;
 }
 
 #pricing {
@@ -176,4 +182,24 @@ Código caso eu substitua a logo escrita pela imagem.
 
 .card-body > ul {
     list-style-type: none
+}
+/*===================Section CTA===================*/
+#cta{
+    padding: 1% 15%;
+    background-image: linear-gradient(to right, #051d35, #093764 );
+    color: white;
+}
+
+.text-cta {
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+
+#cta > div > a {
+    color: white;
+    text-decoration: none;
+}
+
+.ctabutton {
+    text-align: center;
 }
